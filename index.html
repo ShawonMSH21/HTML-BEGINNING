@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <em><strong>INTRODUCTION</strong></em>
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="#about" title="About Me">About Me</a></li>
+          <li><a href="#education" title="Education">Education</a></li>
+          <li><a href="#skill" title="Skills">Skills</a></li>
+          <li><a href="#contact" title="Contact Me">Contact Me</a></li>
+        </ul>
+      </nav>
+
+      <hr />
+      <h2>Muhammad Shawon Hossain</h2>
+      <p>Department of Computer Science and Engineering, Rajshahi University</p>
+
+      <a href="https://github.com/ShawonMSH21" title="Muhammad Shawon Hossain"
+        ><img src="./images/Shawon.jpg" alt="Shawon Hossain" height="300px"
+      /></a>
+      <h3 id="about">About Me :</h3>
+      <strong>Name : </strong> Md. Shawon Hossain <br />
+      <strong> Date of Birth : </strong> 21st December 2001 <br />
+      <strong>Village : </strong> Somewhere <br />
+      <strong>Upazilla : </strong> Somewhere <br />
+      <strong>Blood Group : </strong> O(+ve) <br />
+      <strong>Mobile Number : </strong> <del> 01700000000</del>
+
+      <br />
+      <br />
+      <h3 id="education">Education :</h3>
+      <ol>
+        <li>
+          <strong><p>Rajshahi University, Rajshahi</p></strong>
+          <ul type="square">
+            <li>Department of Computer Science and Engineering.</li>
+            <li>Achieved CGPA 3.70 out of 4.00</li>
+            <li>Session : 2023 - Running</li>
+          </ul>
+        </li>
+        <li>
+          <strong><p>Shah Mokhdum College, Rajshahi</p></strong>
+          <ul type="square">
+            <li>Passed HSC in 2022</li>
+            <li>Achieved GPA 5.00</li>
+            <li>Got Scholarship and so on.</li>
+            <li>Session : 2019 -2021</li>
+          </ul>
+        </li>
+
+        <li>
+          <strong><p>Balatoir High School</p></strong>
+        </li>
+        <ul type="square">
+          <li>Passed JSC, SSC in 2016 and 2019</li>
+          <li>Achieved Talentpool Scholarship in JSC</li>
+          <li>Participated Different Debate Competition</li>
+          <li>Session : 2014 - 2019</li>
+        </ul>
+      </ol>
+
+      <h3 id="skill">Skills :</h3>
+      <table border="1px" cellspacing="0" cellpadding="5px">
+        <thead>
+          <tr>
+            <th>Language</th>
+            <th>Proficiency</th>
+            <th>Starting Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>C</td>
+            <td>Advanced</td>
+            <td>2023</td>
+          </tr>
+          <tr>
+            <td>C++</td>
+            <td>Intermediate</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td>Java</td>
+            <td>Beginner</td>
+            <td>2024</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 id="contact">Contact Form :</h3>
+      <form action="#">
+        <label for="name">Name : </label>
+        <input type="text" name="name" id="name" required /> <br />
+        <label for="email">Email : </label>
+        <input type="email" name="email" id="email" required />
+        <br />
+        <label for="dob">Date of Birth : </label>
+        <input type="date" name="date" id="dob" required /> <br />
+        <label for="comment">Enter your message : </label
+        ><textarea
+          name="comment"
+          id="comment"
+          cols="30"
+          rows="3"
+          maxlength="100"
+          placeholder="Please enter your full details and feedback."
+        ></textarea>
+        <br />
+        <button type="submit">Submit</button>
+        <button type="reset">Clear Information</button>
+        <p>Or,</p>
+        <a href="tel:01700000000">Telephone</a> &ThinSpace;
+        <a href="mailto:anonymous@msh.com">Email</a>
+      </form>
+    </header>
+  </body>
+</html>
