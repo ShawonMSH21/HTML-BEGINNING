@@ -28,9 +28,6 @@
 
 <body>
   <header>
-    <h1>
-      <em><strong>INTRODUCTION</strong></em>
-    </h1>
     <nav>
       <ul>
         <li><a href="#about" title="About Me">About Me</a></li>
@@ -41,11 +38,33 @@
     </nav>
 
     <hr />
-    <h2>Muhammad Shawon Hossain</h2>
-    <p>Department of Computer Science and Engineering, Rajshahi University</p>
-
     <a href="https://github.com/ShawonMSH21" title="Muhammad Shawon Hossain"><img src="./images/Shawon.jpg"
         alt="Shawon Hossain" width="300px" /></a>
+    <br>
+    <h2>Muhammad Shawon Hossain</h2>
+    <strong>
+      <p><em>Department of Computer Science and Engineering, Rajshahi University</em>
+      <p></p>
+    </strong>
+    Simplicity, as a concept, denotes the state of being simple or uncomplicated. It is not synonymous with deprivation
+    or austerity, but rather emphasizes the value of appreciating life's fundamental elements. These elements may
+    encompass leisure time, relationships, hobbies, natural beauty, and nourishment. The attainment of simplicity
+    cultivates a sense of tranquility in daily encounters and fosters a habitual inclination towards simplicity. This
+    simplicity permeates all facets of one's life.
+    A lovely life is often perceived as a byproduct of simplicity. Simplification paves the way for a life imbued with
+    significance, a life that aligns with one's individual values. Happiness is frequently discovered in the simplest of
+    things. The process of simplification yields numerous unexpected benefits, including enhanced financial stability,
+    reduced stress, improved focus, better sleep, stronger relationships, and more.
+    In summary, a simple and lovely life is characterized by a focus on what truly matters, while discarding the
+    superfluous. It involves deriving joy from the mundane and valuing experiences over material possessions. It is a
+    life lived authentically, brimming with meaning and happiness. It is a life where freedom prevails, enabling the
+    pursuit of personal interests and the creation of a life that aligns with one's desires. Simplicity is the best way
+    in my life because it makes me extraordinary. Alhamdulillah, for everything.
+    "Hasbunallahu Wa Ni’mal Wakeel Ni’mal Maula Wa Ni’man Naseer"
+    ~<strong><em>Shawon Hossain</em></strong>
+
+
+
   </header>
 
   <main>
@@ -154,60 +173,77 @@
     <div id="contact-me">
       <h3>Contact Form :</h3>
       <form id="form" action="https://formspree.io/f/mnnaqlrl" method="post">
-        <label for="name">Name : </label>
-        <input type="text" name="Name" id="name" required /> <br />
-        <label for="email">Email : </label>
-        <input type="email" name="Email" id="email" required />
-        <br />
-        <label for="dob">Date of Birth : </label>
-        <input type="date" name="Date of Birth" id="dob" required /> <br />
-        <label for="age">Age : </label>
-        <input type="number" id="age" min="18" max="42" name="Age" /> <br />
-        <label for="gender">Gender :</label>
-        <input type="radio" name="Gender" id="gender" value="Male" /> Male
-        <input type="radio" name="Gender" id="gender" value="Female" /> Female
-        <br />
-        <label for="favcolor">Favourite Color : </label>
-        <select name="Favourite Color" id="favcolor">
-          <option value="red" value="Red">Red</option>
-          <option value="green" value="Green">Green</option>
-          <option value="blue" value="Blue">Blue</option>
-          <option value="yellow" value="Yellow">Yellow</option>
-          <option value="purple" value="Purple">Purple</option>
-          <option value="pink" value="Pink">Pink</option>
-          <option value="white" value="White">White</option>
-          <option value="black" value="Black">Black</option>
-        </select>
-        <br />
-        <label for="favfruit" name="Favourite Fruits">Favourite Fruits :
-        </label>
-        <input type="checkbox" name="favfruits" id="favfruits" value="Mango" />Mango
-        <input type="checkbox" name="favfruits" id="favfruits" value="Apple" />Apple
-        <input type="checkbox" name="favfruits" id="favfruits" value="Banana" />Banana
-        <input type="checkbox" name="favfruits" id="favfruits" value="Lichi" />Lichi
-        <input type="checkbox" name="favfruits" id="favfruits" value="Jackfruits" />Jackfruit
-        <br />
-        <label for="telnum">Mobile Number : </label>
-        <input type="tel" name="Telephone-Number" id="telnum" />
-        <br />
-        <label for="meettime">Meeting Time : </label>
-        <input type="time" name="Meeting Time" id="meettime" />
-        <br />
-        <label for="social-link">Social Media Link : </label>
-        <input type="url" name="social-link" id="social-link" pattern="https?://.+" name="Social Media Link" />
-        <br />
-        <label for="prf-photo">Upload Profile Photo :</label>
-        <input type="file" name="prf-photo" id="prf-photo" accept=".jpg, .png, .jpeg" name="Profile Photo" />
-        <br />
-        <br />
+        <fieldset>
+          <legend>
+            Personal Information </legend>
+          <label for="name">Name : </label>
+          <input type="text" name="Name" id="name" required /> <br />
+          <label for="email">Email : </label>
+          <input type="email" name="Email" id="email" required />
+          <br />
+          <label for="dob">Date of Birth : </label>
+          <input type="date" name="Date of Birth" id="dob" required /> <br />
+          <label for="age">Age : </label>
+          <input type="number" id="age" min="18" max="42" name="Age" /> <br />
+          <label for="gender">Gender :</label>
+          <input type="radio" name="Gender" id="gender" value="Male" /> Male
+          <input type="radio" name="Gender" id="gender" value="Female" /> Female
+          <br />
 
-        <label for="comment">Enter your message : </label><textarea name="Messages" id="comment" cols="30" rows="2"
-          maxlength="100" placeholder="Please enter your feedback."></textarea>
-        <br />
-        <br />
+        </fieldset>
+
+        <fieldset>
+          <legend>Other Information</legend>
+          <br>
+          <label for="favcolor">Favourite Color : </label>
+          <select name="Favourite Color" id="favcolor">
+            <option value="red" value="Red">Red</option>
+            <option value="green" value="Green">Green</option>
+            <option value="blue" value="Blue">Blue</option>
+            <option value="yellow" value="Yellow">Yellow</option>
+            <option value="purple" value="Purple">Purple</option>
+            <option value="pink" value="Pink">Pink</option>
+            <option value="white" value="White">White</option>
+            <option value="black" value="Black">Black</option>
+          </select>
+          <p>Or choose,</p>
+          <label for="color">Choose Color : </label>
+          <input type="color" name="Color" id="color">
+          <br>
+          <label for="favfruit" name="Favourite Fruits">Favourite Fruits :
+          </label>
+          <input type="checkbox" name="favfruits" id="favfruits" value="Mango" />Mango
+          <input type="checkbox" name="favfruits" id="favfruits" value="Apple" />Apple
+          <input type="checkbox" name="favfruits" id="favfruits" value="Banana" />Banana
+          <input type="checkbox" name="favfruits" id="favfruits" value="Lichi" />Lichi
+          <input type="checkbox" name="favfruits" id="favfruits" value="Jackfruits" />Jackfruit
+          <br />
+          <label for="telnum">Mobile Number : </label>
+          <input type="tel" name="Telephone-Number" id="telnum" />
+          <br />
+          <label for="meettime">Meeting Time : </label>
+          <input type="time" name="Meeting Time" id="meettime" />
+          <br />
+          <label for="social-link">Social Media Link : </label>
+          <input type="url" name="social-link" id="social-link" pattern="https?://.+" name="Social Media Link" />
+          <br />
+          <label for="prf-photo">Upload Profile Photo :</label>
+          <input type="file" name="prf-photo" id="prf-photo" accept=".jpg, .png, .jpeg" name="Profile Photo" />
+          <br />
+          <br />
+
+          <label for="comment">Enter your message : </label><textarea name="Messages" id="comment" cols="30" rows="2"
+            maxlength="100" placeholder="Please enter your feedback."></textarea>
+          <br>
+          <label for="hw-skill">How much you have commited to work with me : </label>
+          <input type="range" name="Commited to work" id="hw-skill" min="1" max="10">
+          <br />
+          <br />
+        </fieldset>
         <button type="submit">Submit</button>
         <button type="reset">Clear Information</button>
       </form>
+
     </div>
   </main>
   <br />
@@ -223,10 +259,10 @@
         <a href="mailto:anonymous@msh.com"><i class="fa-solid fa-envelope"></i> Email Me</a>
       </li>
       <li>
-        <a href="www.facebook.com/ShawonMSH21"><i class="fa-brands fa-facebook"></i> Facebook</a>
+        <a href="https://www.facebook.com/ShawonMSH21"><i class="fa-brands fa-facebook"></i> Facebook</a>
       </li>
       <li>
-        <a href="www.instagram.com/ShawonMSH21"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        <a href="https://www.instagram.com/ShawonMSH21"><i class="fa-brands fa-instagram"></i> Instagram</a>
       </li>
     </ul>
     <!-- Maps -->
@@ -234,7 +270,7 @@
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58144.78979045858!2d88.56496035855264!3d24.379586180787804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fbefa96a38d031%3A0x10f93a950ed6f410!2sRajshahi!5e0!3m2!1sen!2sbd!4v1720283558196!5m2!1sen!2sbd"
       width="300" height="200" style="border: 0" allowfullscreen="" loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <p>Copyright by &copy; <em>Shawon Hossain 2024</em></p>
+    <p>Copyright by &copy; <em>Shawon Hossain with ❤️ 2024</em></p>
   </footer>
 </body>
 
